@@ -1,39 +1,39 @@
-import { v4 as uuidv4 } from "uuid";
+import { v4 as uuid } from "uuid";
 import { Room } from "../entities/Room";
 
 const rooms: Room[] = [
   {
-    id: "123",
+    id: uuid(),
     name: "Ruby on rails",
     messages: [],
     users: new Map(),
   },
   {
-    id: uuidv4(),
+    id: uuid(),
     name: "frontend",
     messages: [],
     users: new Map(),
   },
   {
-    id: uuidv4(),
+    id: uuid(),
     name: "backend",
     messages: [],
     users: new Map(),
   },
   {
-    id: uuidv4(),
+    id: uuid(),
     name: "react",
     messages: [],
     users: new Map(),
   },
   {
-    id: uuidv4(),
+    id: uuid(),
     name: "devops",
     messages: [],
     users: new Map(),
   },
   {
-    id: uuidv4(),
+    id: uuid(),
     name: "react",
     messages: [],
     users: new Map(),
